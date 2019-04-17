@@ -7,8 +7,8 @@
         //UsingMethod1
         public bool ExplicitEulerMethod { get; set; } = true;
         //UsingMethod2
-        public bool RungeKuttaMethod { get; set; } = false;
+        public bool RungeKuttaMethod { get; set; } = true;
         //UsingMethod3
-        public bool TrapeziumMethod { get; set; } = false;
+        public bool TrapeziumMethod { get; set; } = true;
     }
 }
