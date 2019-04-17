@@ -1,0 +1,9 @@
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\bin\Debug\DifferentialEquations.exe.config
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\bin\Debug\DifferentialEquations.exe
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\bin\Debug\DifferentialEquations.pdb
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\obj\Debug\DifferentialEquations.csprojAssemblyReference.cache
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\obj\Debug\DifferentialEquations.Properties.Resources.resources
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\obj\Debug\DifferentialEquations.csproj.GenerateResource.cache
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\obj\Debug\DifferentialEquations.csproj.CoreCompileInputs.cache
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\obj\Debug\DifferentialEquations.exe
+C:\Users\lotro\OneDrive\Документы\Visual Studio 2017\ЧисМет\DifferentialEquations\DifferentialEquations\obj\Debug\DifferentialEquations.pdb
