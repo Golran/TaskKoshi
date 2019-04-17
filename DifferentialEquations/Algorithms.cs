@@ -4,6 +4,7 @@ namespace DifferentialEquations
 {
     public static class Algorithms
     {
+        //Method0
         public static Node[] ExactSolution(int numberPoints)
         {
             var h = 1.0 / numberPoints;
@@ -14,7 +15,7 @@ namespace DifferentialEquations
 
             return result;
         }
-
+        //Method1
         public static Node[] ExplicitEulerMethod(int numberPoints)
         {
             var h = 1.0 / numberPoints;
@@ -30,22 +31,22 @@ namespace DifferentialEquations
 
             return result;
         }
-
+        //Method2
+        public static Node[] RungeKuttaMethod(int numberPoints)
+        {
+            var h = 1.0 / numberPoints;
+            var result = new Node[numberPoints + 1];
+            Func<double, double, double> f = (x, y) => 50 * y * (x - 0.6) * (x - 0.85);
+            for (var i = 0; i < numberPoints + 1; i++) result[i] = new Node(i * h, i * i * h * h);
+            return result;
+        }
+        //Method3
         public static Node[] TrapeziumMethod(int numberPoints)
         {
             var h = 1.0 / numberPoints;
             var result = new Node[numberPoints + 1];
             Func<double, double, double> f = (x, y) => 50 * y * (x - 0.6) * (x - 0.85);
             for (var i = 0; i < numberPoints + 1; i++) result[i] = new Node(i * h, Math.Pow(Math.E,i*h));
-            return result;
-        }
-
-        public static Node[] RungeKuttaMethod(int numberPoints)
-        {
-            var h = 1.0 / numberPoints;
-            var result = new Node[numberPoints + 1];
-            Func<double, double, double> f = (x, y) => 50 * y * (x - 0.6) * (x - 0.85);
-            for (var i = 0; i < numberPoints + 1; i++) result[i] = new Node(i * h, i*i*h*h);
             return result;
         }
     }
