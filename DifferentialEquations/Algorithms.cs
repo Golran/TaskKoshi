@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Xml;
 
 namespace DifferentialEquations
 {
@@ -16,6 +15,7 @@ namespace DifferentialEquations
 
             return result;
         }
+
         //Method1
         public static Node[] ExplicitEulerMethod(int numberPoints)
         {
@@ -32,6 +32,7 @@ namespace DifferentialEquations
 
             return result;
         }
+
         //Method2
         public static Node[] RungeKuttaMethod(int numberPoints)
         {
@@ -53,6 +54,7 @@ namespace DifferentialEquations
 
             return result;
         }
+
         //Method3
         public static Node[] TrapeziumMethod(int numberPoints)
         {
@@ -64,9 +66,9 @@ namespace DifferentialEquations
             for (var i = 1; i < numberPoints + 1; i++)
             {
                 var xi = (i - 1) * h;
-                Func<double, double> fmpi = y => yi + (h / 2) * (f(xi, yi) + f(xi + h, y));
+                Func<double, double> fmpi = y => yi + h / 2 * (f(xi, yi) + f(xi + h, y));
                 var yi1 = MPI(fmpi, 0.5E-10);
-                yi = yi + (h / 2) * (f(xi, yi) + f(xi + h, yi1));
+                yi = yi + h / 2 * (f(xi, yi) + f(xi + h, yi1));
                 result[i] = new Node(i * h, yi);
             }
 

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -26,7 +27,8 @@ namespace DifferentialEquations.Actions
             return
                 new ToolStripMenuItem(action.Name, null, (sender, args) => action.Perform())
                 {
-                    Tag = action
+                    Tag = action,
+                    BackColor = Color.MediumPurple
                 };
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace DifferentialEquations.Settings
@@ -15,6 +16,8 @@ namespace DifferentialEquations.Settings
     {
         public SettingsForm(TSettings settings)
         {
+            Size = new Size(600, 600);
+            BackColor = Color.MediumPurple;
             var okButton = new Button
             {
                 Text = "OK",

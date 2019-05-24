@@ -1,7 +1,11 @@
-﻿namespace DifferentialEquations.Settings
+﻿using System.ComponentModel;
+
+namespace DifferentialEquations.Settings
 {
     public class NumberPointsSettings
     {
-        public int NumberPoints { get; set; } = 100;
+        [DisplayName("Колличество точек")]
+        [Category("Точки")]
+        public int NumberPoints { get; set; } = 18;
     }
 }
